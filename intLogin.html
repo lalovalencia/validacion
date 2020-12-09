@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="intLogin.css">
+    <title>intLogin</title>
+</head>
+<body>
+    <div class="contenedor">
+        <h3 class="titulo">Login a Coding Market</h3>
+
+        <form action="" onsubmit="return validacion();">
+        
+            <label class="etiquetas">Nombre de usuario o Email</label>
+            <input id="entrada-texto" class="inputs-campos" type="text">
+            
+            <label class="etiquetas">Contraseña</label>
+            <input id="entrada-cont" class="inputs-campos" type="password">
+            
+            <span class="msjError">Datos incorrectos. Intentelo nuevamente</span>
+            
+            <button id="boton-login" class="disabled" disabled="true">Iniciar Sesion</button>
+        </form>
+    </div>
+    <script src="intLogin.js"></script>
+</body>
+</html>
